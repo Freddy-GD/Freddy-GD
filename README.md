@@ -7,9 +7,11 @@ I come from application support and networking. In my last role I spent nearly t
 ## Projects
 
 **[AWS Cost-Optimization Auditor](https://github.com/Freddy-GD/aws-cost-optimizer)**
+
 A serverless, event-driven auditor (Lambda, EventBridge, SNS) deployed with Terraform. It scans weekly for unattached EBS volumes, idle Elastic IPs, and stopped instances, and emails a report with live dollar estimates from the AWS Price List API. It is report-only by design: humans decide what gets deleted. The README documents a pricing bug that was 16x off and how I found and fixed it.
 
 **[AWS Multi-AZ Production Network & Automation](https://github.com/Freddy-GD/Project-1)**
+
 A Multi-AZ AWS network (VPC, subnets, NACLs, NAT Gateway, Bastion host, ALB) built entirely with Bash and the AWS CLI. The README documents the failures I hit, including an EC2 connectivity problem caused by missing NACL rules on ephemeral ports.
 
 ## Tools
